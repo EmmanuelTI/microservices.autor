@@ -1,30 +1,36 @@
-**/.classpath
-**/.dockerignore
-**/.env
-**/.git
+# Ignorar carpetas de compilación y artefactos temporales
+bin/
+obj/
+
+# Archivos de configuración y entorno local
+**/.vs/
+**/.vscode/
+**/.git/
 **/.gitignore
-**/.project
-**/.settings
-**/.toolstarget
-**/.vs
-**/.vscode
-**/*.*proj.user
-**/*.dbmdl
-**/*.jfm
-**/bin
-**/azds.yaml
-**/charts
-**/docker-compose*
-**/Dockerfile*
-**/node_modules
-**/npm-debug.log
-**/obj
+**/.dockerignore
+**/*.user
+**/*.suo
+
+# Archivos de proyecto específicos
+**/*.csproj.user
+
+# Archivos y carpetas generados por IDE
+*.dbmdl
+*.jfm
+azds.yaml
+
+# Archivos node modules y debug logs (por si tienes frontend)
+node_modules/
+npm-debug.log
+
+# Archivos docker y helm que no necesitas copiar en el build
+docker-compose*
+Dockerfile*
+
+# Archivos de configuración sensible o secretos
 **/secrets.dev.yaml
 **/values.dev.yaml
+
+# Otros archivos que no necesitas en el contenedor
 LICENSE
 README.md
-!**/.gitignore
-!.git/HEAD
-!.git/config
-!.git/packed-refs
-!.git/refs/heads/**

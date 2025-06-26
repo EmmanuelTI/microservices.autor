@@ -1,7 +1,7 @@
+C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\bin\Release\net9.0\web.config
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\bin\Release\net9.0\appsettings.Development.json
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\bin\Release\net9.0\appsettings.json
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\bin\Release\net9.0\tienda.microservicios.autor.api.staticwebassets.endpoints.json
-C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\bin\Release\net9.0\tienda.microservicios.autor.api.exe
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\bin\Release\net9.0\tienda.microservicios.autor.api.deps.json
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\bin\Release\net9.0\tienda.microservicios.autor.api.runtimeconfig.json
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\bin\Release\net9.0\tienda.microservicios.autor.api.dll
@@ -157,6 +157,7 @@ C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.ap
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\tienda.microservicios.autor.api.csproj.CoreCompileInputs.cache
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\tienda.microservicios.autor.api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\tienda.microservicios.autor.api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\tienda.microservicios.autor.api.sourcelink.json
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\scopedcss\bundle\tienda.microservicios.autor.api.styles.css
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\staticwebassets.build.json
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\staticwebassets.development.json
@@ -167,7 +168,6 @@ C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.ap
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\staticwebassets\msbuild.buildMultiTargeting.tienda.microservicios.autor.api.props
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\staticwebassets\msbuild.buildTransitive.tienda.microservicios.autor.api.props
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\staticwebassets.pack.json
-C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\tienda.m.118C83F6.Up2Date
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\tienda.microservicios.autor.api.dll
 C:\Users\ema88\OneDrive\Documentos\Uttt\9IDGS\DWI\tienda.microservicios.autor.api\obj\Release\net9.0\refint\tienda.microservicios.autor.api.dll
