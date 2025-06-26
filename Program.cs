@@ -6,8 +6,15 @@ using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+// Configura Kestrel para usar el puerto dinámico
+builder.WebHost.ConfigureKestrel(options =>
+{
+    var portEnv = Environment.GetEnvironmentVariable("PORT");
+    var port = string.IsNullOrEmpty(portEnv) ? 5000 : int.Parse(portEnv);
+    options.ListenAnyIP(port);
+});
 
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -16,33 +23,31 @@ builder.Services.AddDbContext<ContextoAutor>(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("PermitirReact", policy =>
+    options.AddPolicy("PermitirTodos", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // URL de tu aplicación React
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy.AllowAnyOrigin()   // Permitir cualquier origen
+              .AllowAnyHeader()   // Permitir cualquier encabezado
+              .AllowAnyMethod();  // Permitir cualquier método (GET, POST, etc.)
     });
 });
 
-// Registrar AutoMapper
-// Aquí se registra AutoMapper buscando los perfiles en el ensamblado actual (el que tiene los handlers)
-builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
-// Registrar MediatR
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 builder.Services.AddMediatR(typeof(Program).Assembly);
 
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
+    app.UseHttpsRedirection();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseCors("PermitirReact");
+app.UseCors("PermitirTodos");
 
-app.UseHttpsRedirection();
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();
