@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "79GPYO9A3DUHiYbsRBoHowaAs9WDDkh4h/cPHH+l+kY=",
+  "Source": "tienda.microservicios.autor.api",
+  "BasePath": "_content/tienda.microservicios.autor.api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
